@@ -1,6 +1,6 @@
 # Личный проект «{{projectTitle}}»
 
-* Студент: [Николай Шабалин](https://htmlacademy.ru/profile/id1057153).
+* Студент: [Rian Moho](https://github.com/mohorian).
 * Наставник:[Алексей Симоненко](https://htmlacademy.ru/profile/id1).
 
 ---
