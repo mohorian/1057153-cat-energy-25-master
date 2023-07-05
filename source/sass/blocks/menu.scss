@@ -1,0 +1,21 @@
+.menu__toggle {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  background-color: var(--white);
+  background-image: url(../img/open-menu-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.menu__list {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+  list-style: none;
+}

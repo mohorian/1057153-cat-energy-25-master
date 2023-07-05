@@ -1,0 +1,21 @@
+.instructions {
+  padding-top: 27px;
+  padding-bottom: 46px;
+}
+
+.instructions__title {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.instructions__list {
+  display: grid;
+  gap: 26px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.instructions__item {
+  padding-left: 80px;
+}

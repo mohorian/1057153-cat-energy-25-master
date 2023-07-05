@@ -1,0 +1,48 @@
+@import 'blocks/variables.scss';
+
+@import 'blocks/header.scss';
+@import 'blocks/menu.scss';
+@import 'blocks/promo.scss';
+@import 'blocks/program.scss';
+@import 'blocks/instructions.scss';
+
+.visually-hidden {
+  display: none;
+}
+
+.page__body {
+  margin: 0;
+}
+
+.logo {
+  // height: 38px;
+}
+
+.logo__label {
+  position: absolute;
+  top: 24px;
+  left: calc(50% - 50px);
+}
+
+.programs__list {
+  display: grid;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.example {
+  padding-top: 27px;
+  padding-bottom: 30px;
+  background-color: #EAEAEA;
+}
+
+.example__text {
+  color: var(--special-dark-grey-2);
+}
+
+.table__size {
+  padding: 13px 41px;
+  border: 1px solid var(--special-grey);
+}

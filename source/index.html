@@ -2,23 +2,24 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Главная страница Cat Energy</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <!-- header -->
-    <header class="main-header">
-      <nav class="main-nav">
-        <a href="#" class="main-nav__logo site-logo">
-          <img class="site-logo__icon main-logo" src="" alt="Логотип компании Cat Energy">
-          <img class="site-logo__text" src="" alt="Название компании">
-        </a>
-        <ul class="main-nav__menu menu">
+    <header class="header">
+      <a href="#" class="header__logo logo">
+        <img class="logo__icon" src="img/logo-icon-mobile.svg" alt="Логотип компании Cat Energy">
+        <img class="logo__label" src="img/logo-label.svg" alt="Название компании">
+      </a>
+      <nav class="header_menu menu">
+        <button class="menu__toggle"><span class="visually-hidden">Раскрывающееся меню</span></button>
+        <ul class="menu__list menu__list--opened">
           <li class="menu__item"><a class="menu__link menu__link--current" href="#">Главная</a></li>
           <li class="menu__item"><a class="menu__link" href="catalog.html">Каталог продукции</a></li>
           <li class="menu__item"><a href="form.html" class="menu__link">Подбор программы</a></li>
         </ul>
-        <button class="main-nav__toggle"><span class="visually-hidden">Раскрывающееся меню</span></button>
       </nav>
     </header>
     <main>
@@ -26,8 +27,8 @@
       <section class="promo">
         <h2 class="promo__title">Функциональное питание для котов</h2>
         <p class="promo__text">Занялся собой? Займись котом!</p>
-        <img src="" alt="Баночка с питанием для кота">
-        <a href="form.html" class="promo__button button">Подобрать программу</a>
+        <img class="promo_banner" src="img/promo-product.png" alt="Баночка с питанием для кота">
+        <a class="promo__button button" href="form.html">Подобрать программу</a>
       </section>
       <section class="programs">
         <h2 class="visually-hidden">Программы</h2>
@@ -40,7 +41,7 @@
           <li class="programs__item program">
             <h3 class="program__title">Набор массы</h3>
             <p class="program__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
-            <a href="catalog.html" class="program__link">Каталог pro</a>
+            <a class="program__link" href="catalog.html">Каталог pro</a>
           </li>
         </ul>
       </section>
